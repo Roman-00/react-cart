@@ -1,5 +1,8 @@
 import React from 'react';
 
+/* Импортируем компоненты */
+import { MealItemForm } from './MealItemForm';
+
 /* Импортируем стили */
 import styles from './MealItem.module.css';
 
@@ -21,7 +24,7 @@ export const MealItem = (props) => {
                 </div>
             </div>
             <div>
-                
+                <MealItemForm />
             </div>
         </li>
     );
